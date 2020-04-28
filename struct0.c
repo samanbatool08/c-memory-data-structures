@@ -11,9 +11,9 @@ int main(void)
     int enrollment = get_int("Enrollment: ");
     student students[enrollment];
 
-    // same as:
-    string names[enrollment];
-    string dorms[enrollment];
+    // line 12 same as writing:
+    // string names[enrollment];
+    // string dorms[enrollment];
 
     // prompt for students' names and dorms 
     for (int i = 0; i < enrollment; i++)
