@@ -30,7 +30,7 @@ int main(void)
         printf("You inputted %", number[i])
     }
     // free memory; no heap blocks
-    free(numbers)
+    free(numbers);
 
     }
 }
