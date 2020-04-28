@@ -18,11 +18,17 @@ int main(void)
 
         if (size == capacity)
         {
-            int *tmp = realloc(numbers, sizeof(int) * (size + 1));
-            if (tmp == NULL)
-            {
-                // quit
-            }
+            numbers = realloc(numbers, sizeof(int) * (size + 1));
+            capacity++; 
         }
+
+        numbers[size ] = number;
+        size++;
+
+    for (int i = 0; i < size; i++)
+    {
+        printf("You inputted %", number[i])
+    }
+
     }
 }
